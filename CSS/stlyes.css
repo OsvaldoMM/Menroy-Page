@@ -15,10 +15,11 @@ body {
 .header {
   background-color: #ffffff;
   width: 100vw;
-  height: 80px;
+  height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .logo {
@@ -59,6 +60,37 @@ body {
 
 ul.show {
   top: 65px;
+}
+
+.main_hero {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.container_hero {
+  display: grid;
+  grid-template-rows: repeat(5, 600px);
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.aside {
+  display: grid;
+  grid-template-rows: repeat(6, 300px);
+  margin-left: 100px;
+}
+
+.element {
+  width: 90%;
+  height: 70%;
+  padding: 0 40px 0 10px;
+  border-radius: 4px;
+}
+
+.element_2 {
+  width: 40%;
+  height: 80%;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 767px) {
@@ -133,4 +165,4 @@ ul.show {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=stlyes.css.map */
