@@ -165,6 +165,37 @@ h4 {
 
 }
 
+//FOOTER//
+.footer{
+    display: grid;
+    grid-template-rows:repeat(2,100px);
+    grid-template-columns: 100%;
+    background-color: #000000;
+}
+
+
+.img_footer{
+    width: 10%;
+    height: 60%;
+    margin-left: 48%;
+    margin-top: 20px;
+
+}
+.contacts{
+    color: #414141;
+    margin-left: 30%;
+}
+.insta_negro{
+    width: 10%;
+    height: 60%;
+    margin-left: 48%;
+    padding: 5px;
+    
+}
+
+
+
+
 
 
 
